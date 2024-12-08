@@ -1,5 +1,13 @@
 # Getting Started with Create React App and Redux
 
+## Build docker
+
+1. Build docker image
+`cd Frontend`
+`docker build -t fe-tkxdpm . `
+2. Run container
+`docker run -p 3000:80 fe-tkxdpm`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
